@@ -353,7 +353,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minNft",
+				"name": "mintNft",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -925,11 +925,11 @@
 			]
 		},
 		"MintNFT.sol": {
-			"keccak256": "0xd97d5c97d438a8101e2fb8ab282920c2c0523551f286ae784bb6adec9fa8f591",
+			"keccak256": "0x46b396b19aab1d9e799ddb5aae9ccf398f0adf64bebb44b4e2cdd8d9048b56ad",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2310357e77f9fff19c49b907d26c87d543b49bb5f3aed8f83a505140f76e1991",
-				"dweb:/ipfs/QmeK3FMox7mpW4MoZT1ec2oHLH786jjagvJtm8poPbeCCx"
+				"bzz-raw://3aff136ad32251c70d85563bd876737b4bf179436803742515de3210a97bde98",
+				"dweb:/ipfs/QmepcYsEzYT2ZNXwvynxAzEs3pr6n2S6PNEdTX4cVKJBxU"
 			]
 		}
 	},
