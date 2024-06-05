@@ -40,8 +40,8 @@ const MintModal: FC<MintModalProps> = ({ isOpen, onClose, nftMetadata }) => {
           </Text>
           <Text mt={4}>{nftMetadata?.description}</Text>
           <Flex flexWrap={"wrap"} mt={4} gap={2}>
-            {nftMetadata?.attributes?.map((v) => (
-              <Box border={"2px solid olive"} p={1}>
+            {nftMetadata?.attributes?.map((v, i) => (
+              <Box key={i} border={"2px solid olive"} p={1}>
                 <Text borderBottom={"2px solid olive"}>{v.trait_type}</Text>
                 <Text>{v.value}</Text>
               </Box>
